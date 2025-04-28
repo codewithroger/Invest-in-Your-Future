@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore the top real estate properties available for investment.">
+    <meta name="keywords" content="Properties, Houses for Sale, Apartments, Real Estate Deals">
+    <meta name="author" content="RealEstatePro">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties | Real Estate Investment</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .property-item {
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+    
+        .property-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            aspect-ratio: 4/3; /* maintains a perfect 4:3 shape */
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+    
+        .property-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+    
+        .property-item img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+    
+</head>
+<body>
+
+<header>
+    <h1>Available Properties</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="properties.html" class="active">Properties</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="property-list">
+    <article class="property-item">
+        <img src="images/house1.png" alt="4BHK Villa" loading="lazy">
+        <h2>Luxury 4BHK Villa</h2>
+        <p>Located in Beverly Hills. Starting at $1.2M.</p>
+        <a href="contact.html" class="btn">Inquire Now</a>
+    </article>
+    <article class="property-item">
+        <img src="images/house2.jpg" alt="2BHK Apartment" loading="lazy">
+        <h2>Affordable 2BHK Apartment</h2>
+        <p>Prime city location. Starting at $200k.</p>
+        <a href="contact.html" class="btn">Inquire Now</a>
+    </article>
+</section>
+
+<footer>
+    <p>&copy; 2025 RealEstatePro. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

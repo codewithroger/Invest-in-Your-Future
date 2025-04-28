@@ -1,0 +1,122 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #004aad;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('images/house1.png') no-repeat center center/cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ffa500;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.property-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.property-item {
+    background: white;
+    margin: 20px;
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px #bbb;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-form {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #222;
+    color: #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffa500;
+    text-decoration: none;
+}
